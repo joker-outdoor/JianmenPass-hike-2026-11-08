@@ -8,6 +8,8 @@
 
 ## 轨迹与统计口径
 
+累计爬升约 **553 m**、下降约 **547 m**，均为裁剪后轨迹估算，不是设备原始汇总。按轨迹距离每 10 m 分箱取海拔中位数，保留首尾海拔；从首点开始，当前海拔与上次计入值相差至少 5 m 时累计相应升降，末端余量计入。滤波参数会影响结果，避免将原始海拔噪声累加成正式爬升。缺少可靠数据的主统计项直接隐藏。
+
 - 活动与页面日期：2026-11-08。坐标、海拔来自运动健康 GPS 的裁剪后徒步轨迹。
 - 保留 **10,296 点**，几何距离 **6.687247 km**，保留轨迹的起止跨度约 **2 小时 51 分 35 秒**，未扣除停留。
 - 已在返回起点附近截断，回归点之后的 **1,106 点**已删除，不包含后续驾车尾段。整场 **12.35 km / 643 m** 不用于本页面的距离或爬升统计。
@@ -42,7 +44,7 @@
 
 - 卫星影像：[Esri World Imagery](https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer)，全景使用 z16 源瓦片，局部高清使用 z17 原生瓦片，全部生成到本地 `data/`。Imagery © Esri, Maxar, Earthstar Geographics, and the GIS User Community；影像版权归相应提供者。
 - 地形：[Tilezen / Mapzen Terrain Tiles](https://github.com/tilezen/joerd)，z14 Terrarium DEM，Terrain · Mapzen; SRTM / GMTED2010 courtesy of USGS。参见 [数据署名与许可](https://github.com/tilezen/joerd/blob/master/docs/attribution.md)。地形网格与轨迹海拔可能不同；3D 路线贴合地形，剖面保留轨迹海拔。
-- 渲染与生成器：[route-visualization-template](https://github.com/joker-outdoor/route-visualization-template)，采用已合入 main 的 commit **`8e4784f4ae723dd45e31bcf47c10a341b9df6369`**。`app.js`、`route-style.js`、`video.js` 与 `scripts/` 原样同步；唯一测试适配是把 CPU 场景测试的演示数据读取路径改到 `examples/fixtures/demo/`，保留全部断言。没有另写渲染器，也没有修改共享 app 的默认逻辑；1× 初值仅配置在本路线 `index.html`。
+- 渲染与生成器：[route-visualization-template](https://github.com/joker-outdoor/route-visualization-template)，采用已合入 main 的 commit **`3fba4a79c8cea48ce87be5e266056f695c2e3c13`**。`app.js`、`route-style.js`、`video.js` 与 `scripts/` 原样同步；唯一测试适配是把 CPU 场景测试的演示数据读取路径改到 `examples/fixtures/demo/`，保留全部断言。没有另写渲染器，也没有修改共享 app 的默认逻辑；1× 初值仅配置在本路线 `index.html`。
 - Three.js 0.160.0 官方原文件，MIT，见 `vendor/LICENSE`。
 
 浏览器仅加载仓库内的地图数据，无需地图 API key。z17 高清覆盖轨迹走廊；远景、2D 与走廊外景点使用全景影像，不把全景插值当作高清。
