@@ -19,7 +19,7 @@
   "demZoom": 14,
   "detailImageryZoom": 17,
   "landmarkTitle": "剑门关景点",
-  "landmarkNote": "景点名称参照现场导游图；坐标来自 OpenStreetMap，景点位置独立于徒步轨迹。关联里程为路线最近点，不表示实地经过所有景点。",
+  "landmarkNote": "景点位置独立于徒步轨迹：前12处坐标来自 OpenStreetMap；仙峰观采用百度地图 POI 坐标转换至 WGS84，以山顶道观标示金城山绝壁。关联里程为路线最近点，不表示实地经过所有景点。",
   "landmarks": [
     {
       "name": "剑门关地质博物馆",
@@ -104,6 +104,13 @@
       "lat": 32.2161846,
       "preservePosition": true,
       "positionSource": "OpenStreetMap way/1037626379（路径中段节点，标记代表整段步道，并非入口；2026-11-08读取），https://www.openstreetmap.org/way/1037626379"
+    },
+    {
+      "name": "仙峰观 · 金城山绝壁",
+      "lon": 105.54276085,
+      "lat": 32.22131165,
+      "preservePosition": true,
+      "positionSource": "百度地图仙峰观位置（2026-11-08读取，已转换为 WGS84）；以山顶道观标示金城山绝壁，不代表整片崖壁的边界。本次徒步未到达此处。"
     }
   ]
 }
