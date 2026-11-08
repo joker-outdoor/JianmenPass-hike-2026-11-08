@@ -3,8 +3,9 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#0a1218">
-<meta name="description" content="GPX 路线可视化：3D地形、沿途地标与联动海拔剖面。">
-<title>路线可视化 · Joker Outdoor</title>
+<meta name="description" content="剑门关徒步路线：6.687 km 裁剪后轨迹、真实卫星地形、12 处独立景点与联动海拔剖面。">
+<title>剑门关 · 徒步 | Joker Outdoor</title>
+<link rel="canonical" href="https://joker-outdoor.github.io/JianmenPass-hike-2026-11-08/">
 <link rel="stylesheet" href="style.css">
 <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
 </head>
@@ -12,7 +13,7 @@
 <main id="app">
 <canvas id="map" aria-label="路线地图"></canvas>
 <div id="labels"></div>
-<header><p class="eyebrow">JOKER OUTDOOR / ROUTE ATLAS</p><h1 id="title">路线可视化</h1><p id="subtitle" class="subtitle"></p></header>
+<header><p class="eyebrow">JOKER OUTDOOR / ROUTE ATLAS</p><h1 id="title">剑门关 · 徒步</h1><p id="subtitle" class="subtitle"></p></header>
 <aside id="side" class="panel">
 <div class="route-heading"><span class="route-dot"></span><span id="route-heading">GPX 路线</span><span class="badge">路线</span></div>
 <div class="big-distance"><strong id="distance">—</strong><span>km <small id="distance-source">轨迹测算</small></span></div>
@@ -31,7 +32,7 @@
 <nav id="tools" aria-label="地图控制">
 <div id="view-toggle" class="tool-row panel"><button id="maximize-view" aria-pressed="false">最大化3D</button></div>
 <div class="tool-row panel"><button id="overview" aria-pressed="true">全景</button><button id="top" aria-pressed="false">俯视</button><button id="rotate" aria-pressed="false">旋转</button></div>
-<div class="tool-row panel"><label for="exag">地形高度 <input id="exag" type="range" min="1" max="5" step="0.5" value="3"></label><output id="exag-value">3×</output></div>
+<div class="tool-row panel"><label for="exag">地形高度 <input id="exag" type="range" min="1" max="5" step="0.5" value="1"></label><output id="exag-value">1×</output></div>
 <div class="tool-row panel"><button id="texture" aria-pressed="true">卫星底图</button><button id="ghost" aria-pressed="true">显示遮挡段</button></div>
 <div id="building-controls" class="tool-row panel" hidden><button id="buildings" aria-pressed="false" disabled>城市建筑</button><label for="building-exag">建筑高度 <input id="building-exag" type="range" min="1" max="4" step="0.25" value="1.5" disabled></label><output id="building-exag-value">1.5×</output></div>
 <div id="flight-controls" class="panel" role="group" aria-label="沿线飞行">
