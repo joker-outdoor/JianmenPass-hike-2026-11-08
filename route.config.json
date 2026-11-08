@@ -1,0 +1,109 @@
+{
+  "title": "剑门关 · 徒步",
+  "subtitle": "Jianmen Pass · 山关与栈道",
+  "routeLabel": "运动健康 GPS · 回到起点后已截断",
+  "madeOn": "2026-11-08",
+  "recordedOn": "2026-11-08",
+  "startName": "徒步起点",
+  "finishName": "回到起点附近",
+  "trackSource": "运动健康 GPS（仅保留返回起点前的徒步段）",
+  "statsSource": "路线已在返回起点附近截断；里程按保留坐标测算，总耗时按保留时间跨度计算、未扣停留。原活动包含驾车尾段，整场距离与爬升不沿用。",
+  "stats": {
+    "sourceDistanceKm": null,
+    "gainM": null,
+    "lossM": null,
+    "durationHours": 2.8597216810120476,
+    "pauseSeconds": null
+  },
+  "imageryZoom": 16,
+  "demZoom": 14,
+  "detailImageryZoom": 17,
+  "landmarkTitle": "剑门关景点",
+  "landmarkNote": "景点名称参照现场导游图；坐标来自 OpenStreetMap，景点位置独立于徒步轨迹。关联里程为路线最近点，不表示实地经过所有景点。",
+  "landmarks": [
+    {
+      "name": "剑门关地质博物馆",
+      "lon": 105.56233505,
+      "lat": 32.22499175,
+      "preservePosition": true,
+      "positionSource": "OpenStreetMap way/1024636873（轮廓节点平均代表位置；2026-11-08读取），https://www.openstreetmap.org/way/1024636873"
+    },
+    {
+      "name": "五丁坪",
+      "lon": 105.5622635,
+      "lat": 32.2217295,
+      "preservePosition": true,
+      "positionSource": "OpenStreetMap node/9448222337（原始节点坐标；2026-11-08读取），https://www.openstreetmap.org/node/9448222337"
+    },
+    {
+      "name": "钟会故垒",
+      "lon": 105.56488324,
+      "lat": 32.22756832,
+      "preservePosition": true,
+      "positionSource": "OpenStreetMap way/1024636861（轮廓节点平均代表位置；2026-11-08读取），https://www.openstreetmap.org/way/1024636861"
+    },
+    {
+      "name": "小穿洞",
+      "lon": 105.5712681,
+      "lat": 32.2252691,
+      "preservePosition": true,
+      "positionSource": "OpenStreetMap way/1037626362（路径中段节点，标记代表整段步道，并非入口；2026-11-08读取），https://www.openstreetmap.org/way/1037626362"
+    },
+    {
+      "name": "大穿洞",
+      "lon": 105.572467,
+      "lat": 32.2239622,
+      "preservePosition": true,
+      "positionSource": "OpenStreetMap way/1037626360（路径中段节点，标记代表整段步道，并非入口；2026-11-08读取），https://www.openstreetmap.org/way/1037626360"
+    },
+    {
+      "name": "鸟道",
+      "lon": 105.5737089,
+      "lat": 32.2277753,
+      "preservePosition": true,
+      "positionSource": "OpenStreetMap way/1037626391（路径中段节点，标记代表整段步道，并非入口；2026-11-08读取），https://www.openstreetmap.org/way/1037626391"
+    },
+    {
+      "name": "猿猱道",
+      "lon": 105.5746168,
+      "lat": 32.2296313,
+      "preservePosition": true,
+      "positionSource": "OpenStreetMap way/1073535925（路径中段节点，标记代表整段步道，并非入口；2026-11-08读取），https://www.openstreetmap.org/way/1073535925"
+    },
+    {
+      "name": "梁山寺",
+      "lon": 105.5784919,
+      "lat": 32.232116250000004,
+      "preservePosition": true,
+      "positionSource": "OpenStreetMap way/1037626371（轮廓节点平均代表位置；2026-11-08读取），https://www.openstreetmap.org/way/1037626371"
+    },
+    {
+      "name": "翠屏峰",
+      "lon": 105.5862468,
+      "lat": 32.2315485,
+      "preservePosition": true,
+      "positionSource": "OpenStreetMap node/9557944664（原始节点坐标；2026-11-08读取），https://www.openstreetmap.org/node/9557944664"
+    },
+    {
+      "name": "剑门关关楼",
+      "lon": 105.56350963333334,
+      "lat": 32.21503406666667,
+      "preservePosition": true,
+      "positionSource": "OpenStreetMap way/1024636859（轮廓节点平均代表位置；2026-11-08读取），https://www.openstreetmap.org/way/1024636859"
+    },
+    {
+      "name": "关楼观景台",
+      "lon": 105.5641612,
+      "lat": 32.2157629,
+      "preservePosition": true,
+      "positionSource": "OpenStreetMap node/9448222316（原始节点坐标；2026-11-08读取），https://www.openstreetmap.org/node/9448222316"
+    },
+    {
+      "name": "天梯峡栈道",
+      "lon": 105.5692175,
+      "lat": 32.2161846,
+      "preservePosition": true,
+      "positionSource": "OpenStreetMap way/1037626379（路径中段节点，标记代表整段步道，并非入口；2026-11-08读取），https://www.openstreetmap.org/way/1037626379"
+    }
+  ]
+}
